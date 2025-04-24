@@ -12,8 +12,8 @@ function App() {
       <Box width="400px" sx={{ width: {x1:'1488px'}}}  m="auto">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/exercise/:id" element={<ExerciseDetail />} />
+          <Route path="https://fitness2.onrender.com/" element={<Home />} />
+          <Route path="https://fitness2.onrender.com/exercise/:id" element={<ExerciseDetail />} />
         </Routes>
         <Footer></Footer>
       </Box>
